@@ -1,4 +1,9 @@
 html {box-sizing: border-box;}
 *, *::before, *::after {box-sizing: inherit;}
-#logo {width: 15%;
-        height: 15%;}
+header {width: 20%;
+    height: 20%;
+    display: inline-grid;
+    grid-template-areas: aabbb;
+    gap: 10px;}
+.div-header-a {grid-area: a;}
+.div-header-b {grid-area: b;}
