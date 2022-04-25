@@ -37,6 +37,8 @@ html {box-sizing: border-box;
     grid-template-columns: 2fr 5fr;
     grid-template-rows: 1fr;
     gap: 1rem;}
+.div-header-a {width: auto;
+    height: auto;}
 .img-1 {width: auto;
     height: auto;
     border-radius: 0.1rem;
