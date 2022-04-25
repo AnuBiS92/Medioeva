@@ -1,9 +1,48 @@
-html {box-sizing: border-box;}
+html {box-sizing: border-box;
+    font-size: 62.5%;
+    background: linear-gradient(87deg, #b4a1c6, #86d786, #b4a1c6);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 11s ease infinite;
+    -moz-animation: AnimationName 11s ease infinite;
+    -o-animation: AnimationName 11s ease infinite;
+    animation: AnimationName 11s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
 *, *::before, *::after {box-sizing: inherit;}
-header {width: 20%;
+.header {width: 100%;
     height: 20%;
-    display: inline-grid;
-    grid-template-areas: aabbb;
-    gap: 10px;}
-.div-header-a {grid-area: a;}
-.div-header-b {grid-area: b;}
+    padding: 0.5rem;
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    grid-template-rows: 1fr;
+    gap: 1rem;}
+.img-1 {width: auto;
+    height: auto;
+    border-radius: 0.1rem;
+    border: 0.5rem rgb(134, 94, 132) solid;}
+.div-header-b {color: rgba(255, 68, 0, 0.425);
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;}
