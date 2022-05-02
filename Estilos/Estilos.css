@@ -4,13 +4,13 @@ html {
     background: linear-gradient(87deg, #b4a1c6, #86d786, #b4a1c6);
     background-size: 600% 600%;
 
-    -webkit-animation: AnimationName 11s ease infinite;
-    -moz-animation: AnimationName 11s ease infinite;
-    -o-animation: AnimationName 11s ease infinite;
-    animation: AnimationName 11s ease infinite;
+    -webkit-animation: Fondogradienteanimado 11s ease infinite;
+    -moz-animation: Fondogradienteanimado 11s ease infinite;
+    -o-animation: Fondogradienteanimado 11s ease infinite;
+    animation: Fondogradienteanimado 11s ease infinite;
 }
 
-@-webkit-keyframes AnimationName {
+@-webkit-keyframes Fondogradienteanimado {
     0% {
         background-position: 0% 50%
     }
@@ -24,7 +24,7 @@ html {
     }
 }
 
-@-moz-keyframes AnimationName {
+@-moz-keyframes Fondogradienteanimado {
     0% {
         background-position: 0% 50%
     }
@@ -38,7 +38,7 @@ html {
     }
 }
 
-@-o-keyframes AnimationName {
+@-o-keyframes Fondogradienteanimado {
     0% {
         background-position: 0% 50%
     }
@@ -52,7 +52,7 @@ html {
     }
 }
 
-@keyframes AnimationName {
+@keyframes Fondogradienteanimado {
     0% {
         background-position: 0% 50%
     }
@@ -203,6 +203,8 @@ footer {
 
 footer div {
     border: solid black 0.1rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     display: inline-block;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
