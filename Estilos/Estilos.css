@@ -1,22 +1,21 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%;
-    background: linear-gradient(87deg, #b4a1c6, #86d786, #b4a1c6);
-    background-size: 600% 600%;
+    background: linear-gradient(270deg, #f7d0f4, #bfe3c3);
+    background-size: 400% 400%;
 
-    -webkit-animation: Fondogradienteanimado 11s ease infinite;
-    -moz-animation: Fondogradienteanimado 11s ease infinite;
-    -o-animation: Fondogradienteanimado 11s ease infinite;
-    animation: Fondogradienteanimado 11s ease infinite;
+    -webkit-animation: AnimationName 29s ease infinite;
+    -moz-animation: AnimationName 29s ease infinite;
+    animation: AnimationName 29s ease infinite;
 }
 
-@-webkit-keyframes Fondogradienteanimado {
+@-webkit-keyframes AnimationName {
     0% {
         background-position: 0% 50%
     }
 
     50% {
-        background-position: 100% 51%
+        background-position: 100% 50%
     }
 
     100% {
@@ -24,13 +23,13 @@ html {
     }
 }
 
-@-moz-keyframes Fondogradienteanimado {
+@-moz-keyframes AnimationName {
     0% {
         background-position: 0% 50%
     }
 
     50% {
-        background-position: 100% 51%
+        background-position: 100% 50%
     }
 
     100% {
@@ -38,27 +37,13 @@ html {
     }
 }
 
-@-o-keyframes Fondogradienteanimado {
+@keyframes AnimationName {
     0% {
         background-position: 0% 50%
     }
 
     50% {
-        background-position: 100% 51%
-    }
-
-    100% {
-        background-position: 0% 50%
-    }
-}
-
-@keyframes Fondogradienteanimado {
-    0% {
-        background-position: 0% 50%
-    }
-
-    50% {
-        background-position: 100% 51%
+        background-position: 100% 50%
     }
 
     100% {
@@ -72,11 +57,11 @@ html {
     }
 
     50% {
-        background-color: rgb(248, 169, 222);
+        background-color: rgb(172, 76, 140);
     }
 
     100% {
-        background-color: rgb(99, 168, 78);
+        background-color: rgb(67, 129, 48);
     }
 }
 
@@ -113,16 +98,16 @@ header {
 }
 
 header div img:hover {
-    transform: scale(1.2, 1.2);
-    transition: all 1s ease-in;
+    transform: rotate(360deg) scale(1.2, 1.2);
+    transition: all 2s ease-in;
 }
 
 .título-header {
     color: rgb(146, 17, 118);
-    font-size: 4.3rem;
+    font-size: 5.3rem;
     font-style: normal;
-    font-weight: 600;
-    font-family: 'Courgette', cursive;
+    font-weight: bold;
+    font-family: 'Oooh Baby', cursive;
 }
 
 nav {
@@ -138,16 +123,23 @@ nav {
 }
 
 
-.a-nav {
+nav a {
     font-family: 'Oswald', sans-serif;
     font-size: 1.8rem;
     font-weight: bold;
-    color: wheat;
+    color: rgb(206, 197, 180);
+    text-decoration: none;
 }
 
-a:hover {
-    background-color: rgb(250, 164, 236);
+a i {
+    color: rgb(206, 197, 180);
+}
+
+nav a:hover {
+    background-color: rgb(80, 32, 72);
     color: rgb(62, 163, 59);
+    transition: all 0.2s ease-in;
+    border-radius: 0.3rem;
 }
 
 section {
@@ -158,11 +150,21 @@ section {
     padding: 1rem;
 }
 
-article h1 {
+
+.div-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    row-gap: 0.1rem;
+}
+
+.div-section-a {
     font-family: 'Amatic SC', cursive;
     font-size: 4rem;
     color: blue;
     font-weight: bold;
+    text-align: center;
+
 }
 
 .div-article-b {
@@ -170,6 +172,7 @@ article h1 {
     font-size: 2rem;
     color: purple;
     font-weight: 700;
+    text-align: justify;
 }
 
 article h2 {
@@ -188,6 +191,9 @@ i {
 }
 
 footer {
+    background-color: #59307e;
+    border-radius: 1rem;
+    color: wheat;
     margin: 1rem;
     padding: 1rem;
     grid-area: "footer";
@@ -201,10 +207,25 @@ footer {
     background-color: transparent;
 }
 
+.div-footer {
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: start;
+    align-content: center;
+}
+
+.div-footer2 {
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: start;
+    align-content: center;
+}
+
+
 footer div {
-    border: solid black 0.1rem;
-    font-size: 1.1rem;
-    display: inline-block;
+    font-size: 1rem;
     font-weight: 600;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
 }
