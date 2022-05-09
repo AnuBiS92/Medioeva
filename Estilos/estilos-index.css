@@ -127,6 +127,7 @@ nav {
 
 
 nav a {
+    padding: 0.3rem;
     font-family: 'Oswald', sans-serif;
     font-size: 1.8rem;
     font-weight: bold;
@@ -141,8 +142,10 @@ a i {
 nav a:hover {
     background-color: rgb(80, 32, 72);
     color: rgb(62, 163, 59);
+    font-size: 2rem;
+    border: solid white 0.2rem;
+    border-radius: 0.7rem;
     transition: all 0.2s ease-in;
-    border-radius: 0.3rem;
 }
 
 section {
@@ -156,6 +159,7 @@ section {
 }
 
 .span-1 {
+    padding: 0rem 0.4rem 0rem 0.4rem;
     font-family: 'Macondo', cursive;
     background-color: rgba(255, 255, 0, 0.445);
     color: #3b0322;
@@ -237,7 +241,7 @@ footer {
 
 .div-footer2 {
     display: grid;
-    grid-template-columns: 0.1fr 0.45fr;
+    grid-template-columns: 0.1fr 0.6fr;
     grid-template-rows: 1fr;
     justify-content: start;
     align-content: center;
