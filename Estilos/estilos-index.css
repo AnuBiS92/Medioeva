@@ -53,15 +53,18 @@ html {
 
 @keyframes Cambiarcolor {
     0% {
-        background-color: #3b0322;
+        color: #3b0322;
+        font-size: 5.3rem;
     }
 
     50% {
-        background-color: rgb(172, 76, 140);
+        color: rgb(172, 76, 140);
+        font-size: 5.8rem;
     }
 
     100% {
-        background-color: rgb(67, 129, 48);
+        color: rgb(67, 129, 48);
+        font-size: 5.3rem;
     }
 }
 
@@ -103,18 +106,18 @@ header div img:hover {
 }
 
 .título-header {
-    color: rgb(146, 17, 118);
-    font-size: 5.3rem;
+    animation: Cambiarcolor 1s linear infinite alternate;
     font-style: normal;
     font-weight: bold;
     font-family: 'Oooh Baby', cursive;
 }
 
 nav {
+    background: rgb(191,117,190);
+    background: linear-gradient(97deg, rgba(191,117,190,0.9500175070028011) 0%, rgba(51,23,85,1) 99%);
     grid-area: "nav";
     padding: 1.5rem;
     margin: 1rem;
-    animation: Cambiarcolor 5s linear infinite alternate;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
@@ -143,11 +146,20 @@ nav a:hover {
 }
 
 section {
+    background: rgb(250, 168, 249);
+    background: radial-gradient(circle, rgba(250, 168, 249, 0.9500175070028011) 0%, rgba(175, 247, 183, 1) 100%);
     grid-area: "section";
-    border: double 0.3rem rgb(77, 1, 1);
+    border: double 0.5rem rgb(77, 1, 1);
     border-radius: 1rem;
     margin: 2rem;
     padding: 1rem;
+}
+
+.span-1 {
+    font-family: 'Macondo', cursive;
+    background-color: rgba(255, 255, 0, 0.445);
+    color: #3b0322;
+    border-radius: 0.6rem;
 }
 
 
@@ -182,6 +194,16 @@ article h2 {
     font-weight: bold;
 }
 
+.article-quien-soy {
+    display: grid;
+    grid-template-columns: 0.8fr auto;
+    gap: 2rem;
+}
+
+.img-quien-soy {
+    border-radius: 200rem;
+}
+
 i {
     color: rgb(151, 12, 12);
 }
@@ -191,25 +213,23 @@ i {
 }
 
 footer {
-    background-color: #59307e;
-    border-radius: 1rem;
-    color: wheat;
+    color: rgb(8, 8, 8);
     margin: 1rem;
     padding: 1rem;
     grid-area: "footer";
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: space-between;
-    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
 }
 
-#instagram {
-    background-color: transparent;
+.quitar-fondo {
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
 }
 
 .div-footer {
     display: grid;
-    grid-template-columns: 0.4fr 1fr;
+    grid-template-columns: 0.29fr 0.1fr;
     grid-template-rows: 1fr;
     justify-content: start;
     align-content: center;
@@ -217,12 +237,16 @@ footer {
 
 .div-footer2 {
     display: grid;
-    grid-template-columns: 0.1fr 1fr;
+    grid-template-columns: 0.1fr 0.45fr;
     grid-template-rows: 1fr;
     justify-content: start;
     align-content: center;
 }
 
+.div-footer3 {
+    display: grid;
+    justify-content: center;
+}
 
 footer div {
     font-size: 1rem;
