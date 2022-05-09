@@ -1,15 +1,15 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%;
-    background: linear-gradient(270deg, #f7d0f4, #bfe3c3);
+    /*  background: linear-gradient(270deg, #f7d0f4, #bfe3c3);
     background-size: 400% 400%;
 
     -webkit-animation: AnimationName 29s ease infinite;
     -moz-animation: AnimationName 29s ease infinite;
-    animation: AnimationName 29s ease infinite;
+    animation: AnimationName 29s ease infinite; */
 }
 
-@-webkit-keyframes AnimationName {
+/* @-webkit-keyframes AnimationName {
     0% {
         background-position: 0% 50%
     }
@@ -49,7 +49,7 @@ html {
     100% {
         background-position: 0% 50%
     }
-}
+} */
 
 @keyframes Cambiarcolor {
     0% {
@@ -113,8 +113,8 @@ header div img:hover {
 }
 
 nav {
-    background: rgb(191,117,190);
-    background: linear-gradient(97deg, rgba(191,117,190,0.9500175070028011) 0%, rgba(51,23,85,1) 99%);
+    background: rgb(191, 117, 190);
+    background: linear-gradient(97deg, rgba(191, 117, 190, 0.9500175070028011) 0%, rgba(51, 23, 85, 1) 99%);
     grid-area: "nav";
     padding: 1.5rem;
     margin: 1rem;
@@ -146,8 +146,8 @@ nav a:hover {
 }
 
 section {
-    background: rgb(250, 168, 249);
-    background: radial-gradient(circle, rgba(250, 168, 249, 0.9500175070028011) 0%, rgba(175, 247, 183, 1) 100%);
+    background: rgb(191, 117, 190);
+    background: linear-gradient(97deg, rgba(191, 117, 190, 0.4682247899159664) 0%, rgba(213, 186, 245, 0.5046393557422969) 99%);
     grid-area: "section";
     border: double 0.5rem rgb(77, 1, 1);
     border-radius: 1rem;
@@ -214,7 +214,7 @@ i {
 
 footer {
     color: rgb(8, 8, 8);
-    margin: 1rem;
+    margin: 1rem 1rem 1rem 8rem;
     padding: 1rem;
     grid-area: "footer";
     display: grid;
