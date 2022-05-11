@@ -81,6 +81,7 @@ body {
         "section section section section"
         "section section section section"
         "footer footer footer footer";
+    background-color: bisque;
 }
 
 header {
@@ -256,4 +257,29 @@ footer div {
     font-size: 1rem;
     font-weight: 600;
     font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.p-showroom {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    color: purple;
+    font-weight: 700;
+    text-align: justify;
+    margin: 2rem;
+
+}
+
+iframe {
+    width: min-content;
+    height: min-content;
+    border: solid 2rem rgb(214, 20, 214);
+    border-radius: 3rem;
+}
+
+label {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    color: purple;
+    font-weight: 700;
+    text-align: justify;
 }
