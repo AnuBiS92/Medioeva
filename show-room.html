@@ -55,33 +55,87 @@
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe></div>
         </div>
+    </div><br>
+    <div class="container">
+        <div class="col-12 título-formulario">Formulario de inscripción al show room</div>
+        <div class="col-12"><br>
+            <form action="Formularios/Formulario-show-room.php" target="_blank" method="post"
+                name="Inscripción a showroom">
+                <div class="row">
+                    <div class="col">
+                        <label for="Nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" placeholder="Nombre" id="Nombre"
+                            aria-label="First name">
+                    </div>
+                    <div class="col">
+                        <label for="Apellido" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" placeholder="Apellido" id="Apellido"
+                            aria-label="Last name">
+                    </div>
+                </div><br>
+                <!--                 <label for="Nombre" class="form-label">Nombre</label>
+                <input class="form-control" type="text" placeholder="Nombre" id="Nombre"
+                    aria-label="default input example"><br>
+                <label for="Apellido" class="form-label">Apellido</label>
+                <input class="form-control" type="text" placeholder="Apellido" id="Apellido"
+                    aria-label="default input example"><br> -->
+                <label for="N° de teléfono" class="form-label">Número de teléfono</label>
+                <input class="form-control número-de-teléfono" type="text" placeholder="N° de teléfono"
+                    id="N° de teléfono" aria-label="default input example"><br>
+                <label for="exampleFormControlInput1" class="form-label">Dirección de correo electrónico</label>
+                <input type="email" class="form-control correo-electrónico" id="exampleFormControlInput1"
+                    placeholder="nombre@ejemplo.com"><br>
+                <label for="Edad" class="form-label">Edad</label>
+                <select class="form-select edad" aria-label="Default select example"
+                    aria-placeholder="Seleccione su rango etario">
+                    <option selected></option>
+                    <option value="16 a 25">16 a 25 años</option>
+                    <option value="26 a 40 años">26 a 40 años</option>
+                    <option value="Más de 40 años">Más de 40 años</option>
+                </select><br>
+                <div class="div-checkbox">¿Qué tipo de prenda te interesa ver o probarte?</div><br>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Bombacha">
+                    <label class="form-check-label" for="Bombacha">
+                        Bombacha
+                    </label><br>
+                    <input class="form-check-input" type="checkbox" value="" id="Tanga">
+                    <label class="form-check-label" for="Tanga">
+                        Tanga
+                    </label><br>
+                    <input class="form-check-input" type="checkbox" value="" id="Culotte">
+                    <label class="form-check-label" for="Culotte">
+                        Culotte
+                    </label><br>
+                    <input class="form-check-input" type="checkbox" value="" id="Colales">
+                    <label class="form-check-label" for="Colales">
+                        Colales
+                    </label><br>
+                    <input class="form-check-input" type="checkbox" value="" id="Corpiño">
+                    <label class="form-check-label" for="Corpiño">
+                        Corpiño
+                    </label><br>
+                    <input class="form-check-input" type="checkbox" value="" id="Corsetería">
+                    <label class="form-check-label" for="Corsetería">
+                        Corsetería
+                    </label><br>
+                    <input class="form-check-input" type="checkbox" value="" id="Conjuntos enteros">
+                    <label class="form-check-label" for="Conjuntos enteros">
+                        Conjuntos enteros
+                    </label><br>
+                </div><br>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                    <label class="form-check-label" for="flexSwitchCheckDefault">Quiero recibir novedades sobre
+                        productos nuevos por correo electrónico</label>
+                </div><br><br>
+                <div class="col-12">
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                </div>
+
+            </form>
+        </div><br><br><br>
     </div>
-    <div class="mb-3" class="container-fluid">
-        <form action="mailto:alvarez.emilianofortin@gmail.com" method="get" name="Inscripción a showroom">
-            <label for="Nombre" class="form-label">Nombre</label>
-            <input class="form-control" type="text" placeholder="Nombre" id="Nombre" aria-label="default input example">
-            <label for="Apellido" class="form-label">Apellido</label>
-            <input class="form-control" type="text" placeholder="Apellido" id="Apellido"
-                aria-label="default input example"><br>
-            <label for="exampleFormControlInput1" class="form-label">Dirección de correo electrónico</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"><br>
-            <input type="submit" value="Enviar">
-        </form>
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <footer>
         <div class="div-footer">
             <div class="div-footer1">¡Seguime en Instagram!</div>

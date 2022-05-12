@@ -278,8 +278,49 @@ iframe {
 
 label {
     font-family: 'Dancing Script', cursive;
-    font-size: 2rem;
-    color: purple;
+    font-size: 1.5rem;
+    color: rgb(87, 2, 2);
     font-weight: 700;
     text-align: justify;
+}
+
+.título-formulario {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    color: rgb(87, 2, 2);
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.div-checkbox {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.2rem;
+    color: rgb(2, 26, 90);
+    font-weight: 700;
+    text-align: left;
+    text-decoration: double;
+}
+
+.correo-electrónico {
+    width: 40%;
+}
+
+.edad {
+    width: 15%;
+}
+
+
+.número-de-teléfono {
+    width: 20%;
+}
+
+button {
+    width: 17% !important;
+    font-size: 1.2rem !important;
+    font-weight: bold !important;
+    background-color: #3b0322 !important;
+    border-radius: 3rem !important;
+    border: rgb(9, 70, 59) 0.2rem solid !important;
+
 }
