@@ -23,6 +23,7 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/2cfe264d44.js" crossorigin="anonymous"></script>
+    <script src="Scripts/scripts.js"></script>
     <title>Medioeva - Lencería de diseño</title>
 </head>
 
@@ -59,13 +60,13 @@
     <div class="container">
         <div class="col-12 título-formulario">Formulario de inscripción al show room</div>
         <div class="col-12"><br>
-            <form action="Formularios/Formulario-show-room.php" target="_blank" method="post"
-                name="Inscripción a showroom">
+            <form action="Formularios/Formulario-show-room.php" onsubmit="return ValidaciónNombre()" target="_blank"
+                method="post" name="Inscripción a showroom">
                 <div class="row">
                     <div class="col">
                         <label for="Nombre" class="form-label">Nombre</label>
-                        <input type="text" class="form-control" placeholder="Nombre" id="Nombre"
-                            aria-label="First name">
+                        <input type="text" class="form-control" placeholder="Nombre" id="Nombre" aria-label="First name"
+                            name="">
                     </div>
                     <div class="col">
                         <label for="Apellido" class="form-label">Apellido</label>
