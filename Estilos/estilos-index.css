@@ -181,6 +181,7 @@ section {
     color: blue;
     font-weight: bold;
     text-align: center;
+    text-decoration: underline;
 
 }
 
@@ -323,4 +324,15 @@ button {
     border-radius: 3rem !important;
     border: rgb(9, 70, 59) 0.2rem solid !important;
 
+}
+
+div div div img {
+    border-radius: 2rem;
+    border: rgb(2, 26, 90) solid;
+}
+
+div div div div {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-weight: bold;
+    font-size: 2rem;
 }
